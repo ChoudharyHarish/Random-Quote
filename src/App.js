@@ -3,6 +3,8 @@ import Card from "./Card";
 import Header from "./Header";
 import Footer from "./Footer";
 import Person from "./Person";
+import "./App.css";
+import "./responsive.css";
 
 
 function App() {
@@ -40,7 +42,7 @@ const random = () => {
      <div >
     <Header  random = {random}  title = 'random'/>
      
-     
+     <p style = {{textAlign:"center"}}>Click random to see random quotes</p>
     {loading ? <div className="loading"><p>Loading Please wait ... </p></div>  : <div className="container">
     <Card quoteText = {data[0].quoteText}/>
     <Person quoteGenre ={data[0].quoteGenre} quoteAuthor = {data[0].quoteAuthor}/>

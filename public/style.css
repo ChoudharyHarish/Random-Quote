@@ -43,14 +43,14 @@ p{
 .person-container{
     margin-top: 1rem;
     width: 35%;
-    transition: 0.8s all ease-in;
     padding: 2rem;
-}
-
-.person-container:hover{
     background-color: rgb(17, 17, 17);
     color: white;
 }
+
+/* .person-container:hover{
+    
+} */
 
 
 .footer{

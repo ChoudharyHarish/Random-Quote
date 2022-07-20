@@ -3,6 +3,38 @@
     padding: 0;
 }
 
+@media only screen and (max-width: 720px) {
+    
+.heading{
+    text-align: center;
+}
+
+.box{
+    width: auto;
+    margin: 2rem;
+}
+
+p{
+    font-size: 21px;
+}
+
+.person-container{
+    padding: 1rem;
+    width: auto;
+}
+
+
+.person{
+    font-size: 16px
+}
+
+.footer{
+    height: auto;
+    padding: 1rem;
+
+}
+}
+
 .heading{
     /* border: 3px solid red; */
     text-align: right;
